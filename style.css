@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+	font-family: "Poiret One", sans-serif;
+	
+}
+
+
+body {
+	width: 768px;
+	margin: 15px auto;
+	background-color: #000000;
+}
+
+header,
+footer,
+main,
+container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-family:"Courier New", monospace;
+	font-size: 38px;
+	background: #ff0000;
+	/* Разберись сам, как это работает :)
+	   Цвета можно подобрать свои :) */
+	background: linear-gradient(to right, #ae00ff 0%, #ff0000 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h2,h3 {
+	font-family:"Courier New", monospace;
+	background: #040e96;
+	/* Разберись сам, как это работает :)
+	   Цвета можно подобрать свои :) */
+	background: linear-gradient(to right, #00ff9d 0%, #ff9900 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+h4,h5,h6 {
+	font-family:"Courier New", monospace;
+	background: #040e96;
+	/* Разберись сам, как это работает :)
+	   Цвета можно подобрать свои :) */
+	background: linear-gradient(to right, #ae00ff 0%, #91ff00 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+ul {
+	font-family:"Courier New", monospace;
+	background: #040e96;
+	/* Разберись сам, как это работает :)
+	   Цвета можно подобрать свои :) */
+	background: linear-gradient(to right, #00e1ff 0%, #ff00c8 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+p {
+	font-family:"Courier New", monospace;
+	background: #040e96;
+	/* Разберись сам, как это работает :)
+	   Цвета можно подобрать свои :) */
+	background: linear-gradient(to right, #ff89eb 0%, #91ff00 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
